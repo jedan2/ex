@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+ul{}
+ul li{
+    list-style: none;
+}
+p{}
+.btn{}
+h2{}
+/*******************/
+/* Header section */
+/*******************/
+header{
+    padding: 40px 0;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.icon{
+    width: 70%;
+    float: left;
+    position: relative;
+}
+.icon::after{
+	content: "";
+	background: url(../img/hand.png);
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	top: 22px;
+	left: 552px;
+}
+.icon ul{
+    text-align: right;
+}
+.icon ul li{
+    display: inline-block;
+}
+.icon ul li a{}
+span{
+	width: 1100px;
+	height: 1px;
+	background: #737373;
+	display: -webkit-inline-box;
+}
+/* menu bar */
+nav{
+    padding-top: 20px;
+}
+nav ul{}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #737373;
+    font-size: 18px;
+    padding-right: 20px;
+}
+nav:first-child{
+	padding-left: 0;
+}
+
+nav ul  li a:hover{color: #00bbf5;}
+
+.active{
+	color:#00bbf5; 
+
+}
+
+/*******************/
+/* Banner section */
+/*******************/
+.banner{}
+.banner-imge{}
+
+/*******************/
+/* About section */
+/******** ***********/
+.about p{}
+.bto{}
+/*******************/
+/* Video section */
+/******** ***********/
+.left-side{}
+.left-side img{}
+.right-side {}
+.right-side p {}
+.right-side h2{}
+/*******************/
+/* About-you-radey section */
+/******** ***********/
+.about-you-reday{}
+.btn{}
+.btn a{}
+/*******************/
+/* footer section */
+/*******************/
+footer{}
+footer p{}
+footer ul{}
+footer ul li{}
